@@ -1,4 +1,4 @@
-# arch-matrich-theme
+# arch-matrix-theme
 
 An animated Matrix-inspired theme for Arch Linux with Omarchy.
 
@@ -19,7 +19,7 @@ An existing Omarchy desktop with `owe`, Python 3.9 or newer, FFmpeg with libx264
 Clone into the `matrix` directory, which the scripts and services expect. If that directory already exists, keep your current copy and install from a separate checkout instead of overwriting it.
 
 ```bash
-git clone https://github.com/g1n10l/arch-matrich-theme.git ~/.config/omarchy/themes/matrix
+git clone https://github.com/g1n10l/arch-matrix-theme.git ~/.config/omarchy/themes/matrix
 mkdir -p ~/.config/systemd/user
 cp ~/.config/omarchy/themes/matrix/systemd/user/matrix-* ~/.config/systemd/user/
 omarchy theme set matrix
