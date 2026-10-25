@@ -1,0 +1,7 @@
+[Unit]
+Description=Seasonal sunlight for the Matrix wallpaper
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.config/omarchy/themes/matrix/animation-source/daylight.py

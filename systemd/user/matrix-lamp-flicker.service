@@ -1,0 +1,7 @@
+[Unit]
+Description=Brief subtle flicker of the Matrix night lamp
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.config/omarchy/themes/matrix/animation-source/daylight.py --flicker

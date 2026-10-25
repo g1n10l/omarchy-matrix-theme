@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.bak*
+*.tmp
+/daylight/
+/animation-source/*verification.json
+/animation-source/animation.ffscript
+/animation-source/terminal-*.txt
+/animation-source/terminal-hacking-*.png
+/animation-source/side-screen-*.mp4
+/backgrounds/neo-room-*.mp4

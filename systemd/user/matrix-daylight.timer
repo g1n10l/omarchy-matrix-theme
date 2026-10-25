@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Matrix sunlight every 30 minutes
+
+[Timer]
+OnStartupSec=15
+OnCalendar=*-*-* *:00,30:00 Europe/Warsaw
+AccuracySec=1s
+Unit=matrix-daylight.service
+
+[Install]
+WantedBy=timers.target

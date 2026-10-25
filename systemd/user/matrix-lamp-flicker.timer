@@ -1,0 +1,11 @@
+[Unit]
+Description=Random Matrix lamp flicker in each five-minute interval
+
+[Timer]
+OnCalendar=*-*-* *:00/5:00
+RandomizedDelaySec=4min
+AccuracySec=1s
+Unit=matrix-lamp-flicker.service
+
+[Install]
+WantedBy=timers.target
